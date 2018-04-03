@@ -1,0 +1,9 @@
+{
+  "name": "ethosce/lookmlphp",
+  "description": "write lookml with php",
+  "autoload": {
+    "psr-4": {
+      "LookML\\": "src/LookML/"
+    }
+  }
+}
