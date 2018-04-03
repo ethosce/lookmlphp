@@ -7,7 +7,7 @@ LookML is based off of YAML, but it is not YAML.
 This library will allow you generate LookML with PHP.
 
 ## Installation
-`composer require dlc-solutions/lookmlphp`
+`composer require  ethosce/lookmlphp:dev-master`
 
 ## Usage
 LookMLphp is designed to be very flexible but provide convenience when possible.
