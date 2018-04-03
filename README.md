@@ -64,3 +64,6 @@ $order->dimension('order_id')
   ->set('type', 'number');
 print $order;
 ```
+
+### Todo
+- Formatting/indenting
