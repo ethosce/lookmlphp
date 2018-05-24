@@ -23,7 +23,7 @@ class Property {
       $out .= "{$this->key}: [{$value}]";
     }
     else {
-      if (strpos($this->value, '$') !== FALSE || strpos($this->value, '{') !== FALSE) {
+      if (strpos($this->key, 'sql') === 0) {
         // Escaped values.
         $out .= "{$this->key}: {$this->value} ;;";
       }
