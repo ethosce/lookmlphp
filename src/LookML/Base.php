@@ -33,7 +33,7 @@ abstract class Base {
   public function __toString() {
     $out = '';
     foreach ($this->lookml as $property) {
-      $out .= $property . "\n";
+      $out .= $this->indent($property, 2);
     }
     return $out;
   }
@@ -41,6 +41,13 @@ abstract class Base {
   public function comment($comment) {
     $this->lookml[] = new Comment($comment);
     return $this;
+  }
+
+  public function indent($string, $level) {
+    foreach (explode("\n", $string) as $line) {
+      $out .= str_repeat(' ', $level) . "$line\n";
+    }
+    return $out;
   }
 
 }
