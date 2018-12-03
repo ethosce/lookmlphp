@@ -1,6 +1,6 @@
 <?php
 
-namespace LookML;
+namespace Looker\LookML;
 
 /**
  * LookML view.

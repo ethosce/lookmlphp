@@ -1,6 +1,6 @@
 <?php
 
-namespace LookML;
+namespace Looker\LookML;
 
 /**
  * LookML explores. This is a Directive with the type "explore" with some

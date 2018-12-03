@@ -1,6 +1,6 @@
 <?php
 
-namespace LookML;
+namespace Looker\LookML;
 
 /**
  * Base class for all block types. Provides property handling and final document

@@ -2,8 +2,8 @@
 
 require_once 'vendor/autoload.php';
 
-use \LookML\View;
-use \LookML\Model;
+use Looker\LookML\View;
+use Looker\LookML\Model;
 
 function model() {
   $model = new Model();

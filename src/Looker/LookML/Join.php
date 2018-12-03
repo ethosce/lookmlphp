@@ -1,6 +1,6 @@
 <?php
 
-namespace LookML;
+namespace Looker\LookML;
 
 /**
  * LookML join. This is a directive of type "join".
