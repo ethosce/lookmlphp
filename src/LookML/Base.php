@@ -44,6 +44,7 @@ abstract class Base {
   }
 
   public function indent($string, $level) {
+    $out = '';
     foreach (explode("\n", $string) as $line) {
       $out .= str_repeat(' ', $level) . "$line\n";
     }
