@@ -32,7 +32,8 @@ class Property {
         $out .= "{$this->key}: {$this->value}";
       }
       else {
-        $out .= "{$this->key}: \"{$this->value}\"";
+        $value = addcslashes($this->value, '"');
+        $out .= "{$this->key}: \"$value\"";
       }
     }
 
